@@ -9,6 +9,11 @@
 import Foundation
 
 class MediListViewModel {
+    
+    func enoughStock(_ medi: Medi) -> Bool {
+        medi.stock - medi.dosage >= 0
+    }
+    
     func handleIntoke(_ medi: Medi) {
         if let name = medi.name{
             print(name)
