@@ -10,11 +10,27 @@
 		1F2A5EA223A2BA5600500C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EA123A2BA5600500C40 /* AppDelegate.swift */; };
 		1F2A5EA423A2BA5600500C40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EA323A2BA5600500C40 /* SceneDelegate.swift */; };
 		1F2A5EA723A2BA5600500C40 /* OneMediPlan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EA523A2BA5600500C40 /* OneMediPlan.xcdatamodeld */; };
-		1F2A5EA923A2BA5600500C40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EA823A2BA5600500C40 /* ContentView.swift */; };
 		1F2A5EAB23A2BA5700500C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5EAA23A2BA5700500C40 /* Assets.xcassets */; };
 		1F2A5EAE23A2BA5700500C40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5EAD23A2BA5700500C40 /* Preview Assets.xcassets */; };
 		1F2A5EB123A2BA5700500C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A5EAF23A2BA5700500C40 /* LaunchScreen.storyboard */; };
 		1F2A5EBC23A2BA5700500C40 /* OneMediPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EBB23A2BA5700500C40 /* OneMediPlanTests.swift */; };
+		1F2A5ECA23A2BCBC00500C40 /* MediRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A5EC923A2BCBC00500C40 /* MediRow.swift */; };
+		1FA79AA623A2ECED00474125 /* MediListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AA523A2ECED00474125 /* MediListView.swift */; };
+		1FA79AA823A3720200474125 /* CreateMediView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AA723A3720200474125 /* CreateMediView.swift */; };
+		1FA79AAC23A432F500474125 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AAB23A432F500474125 /* StockView.swift */; };
+		1FA79AAE23A433E900474125 /* DosageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AAD23A433E900474125 /* DosageView.swift */; };
+		1FA79AB023A434BB00474125 /* NextDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AAF23A434BB00474125 /* NextDateView.swift */; };
+		1FA79AB223A445A500474125 /* SelectDateInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AB123A445A500474125 /* SelectDateInputView.swift */; };
+		1FA79AB423A580F400474125 /* StockInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AB323A580F400474125 /* StockInputView.swift */; };
+		1FA79AB623A674F600474125 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AB523A674F500474125 /* MyData.swift */; };
+		1FA79ABA23A7690400474125 /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79AB923A7690400474125 /* NameInputView.swift */; };
+		1FA79ABC23A76A2300474125 /* IntervalInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79ABB23A76A2300474125 /* IntervalInputView.swift */; };
+		1FA79ABE23A76BC800474125 /* DosageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA79ABD23A76BC800474125 /* DosageInputView.swift */; };
+		1FB68A6123E9E15C001AB650 /* MediListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB68A6023E9E15C001AB650 /* MediListViewModel.swift */; };
+		1FB68A6423E9E8EE001AB650 /* CreateMediViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB68A6323E9E8EE001AB650 /* CreateMediViewModel.swift */; };
+		1FB68A6623E9E9C9001AB650 /* IntervalInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB68A6523E9E9C9001AB650 /* IntervalInputViewModel.swift */; };
+		1FB68A6823EB3408001AB650 /* MediRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB68A6723EB3408001AB650 /* MediRowViewModel.swift */; };
+		1FB68A6B23EB3480001AB650 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB68A6A23EB3480001AB650 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +48,6 @@
 		1F2A5EA123A2BA5600500C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2A5EA323A2BA5600500C40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F2A5EA623A2BA5600500C40 /* OneMediPlan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneMediPlan.xcdatamodel; sourceTree = "<group>"; };
-		1F2A5EA823A2BA5600500C40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F2A5EAA23A2BA5700500C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2A5EAD23A2BA5700500C40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F2A5EB023A2BA5700500C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +55,23 @@
 		1F2A5EB723A2BA5700500C40 /* OneMediPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneMediPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2A5EBB23A2BA5700500C40 /* OneMediPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneMediPlanTests.swift; sourceTree = "<group>"; };
 		1F2A5EBD23A2BA5700500C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2A5EC923A2BCBC00500C40 /* MediRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediRow.swift; sourceTree = "<group>"; };
+		1FA79AA523A2ECED00474125 /* MediListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediListView.swift; sourceTree = "<group>"; };
+		1FA79AA723A3720200474125 /* CreateMediView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMediView.swift; sourceTree = "<group>"; };
+		1FA79AAB23A432F500474125 /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
+		1FA79AAD23A433E900474125 /* DosageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageView.swift; sourceTree = "<group>"; };
+		1FA79AAF23A434BB00474125 /* NextDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDateView.swift; sourceTree = "<group>"; };
+		1FA79AB123A445A500474125 /* SelectDateInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateInputView.swift; sourceTree = "<group>"; };
+		1FA79AB323A580F400474125 /* StockInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInputView.swift; sourceTree = "<group>"; };
+		1FA79AB523A674F500474125 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		1FA79AB923A7690400474125 /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
+		1FA79ABB23A76A2300474125 /* IntervalInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalInputView.swift; sourceTree = "<group>"; };
+		1FA79ABD23A76BC800474125 /* DosageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageInputView.swift; sourceTree = "<group>"; };
+		1FB68A6023E9E15C001AB650 /* MediListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediListViewModel.swift; sourceTree = "<group>"; };
+		1FB68A6323E9E8EE001AB650 /* CreateMediViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMediViewModel.swift; sourceTree = "<group>"; };
+		1FB68A6523E9E9C9001AB650 /* IntervalInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalInputViewModel.swift; sourceTree = "<group>"; };
+		1FB68A6723EB3408001AB650 /* MediRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediRowViewModel.swift; sourceTree = "<group>"; };
+		1FB68A6A23EB3480001AB650 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +113,15 @@
 		1F2A5EA023A2BA5600500C40 /* OneMediPlan */ = {
 			isa = PBXGroup;
 			children = (
+				1FB68A6923EB346C001AB650 /* Extensions */,
+				1FB68A5F23E9E13C001AB650 /* ViewModels */,
+				1F2A5EC823A2BCA000500C40 /* Models */,
+				1F2A5EC723A2BC9500500C40 /* Views */,
 				1F2A5EA123A2BA5600500C40 /* AppDelegate.swift */,
 				1F2A5EA323A2BA5600500C40 /* SceneDelegate.swift */,
-				1F2A5EA823A2BA5600500C40 /* ContentView.swift */,
 				1F2A5EAA23A2BA5700500C40 /* Assets.xcassets */,
 				1F2A5EAF23A2BA5700500C40 /* LaunchScreen.storyboard */,
 				1F2A5EB223A2BA5700500C40 /* Info.plist */,
-				1F2A5EA523A2BA5600500C40 /* OneMediPlan.xcdatamodeld */,
 				1F2A5EAC23A2BA5700500C40 /* Preview Content */,
 			);
 			path = OneMediPlan;
@@ -108,6 +142,76 @@
 				1F2A5EBD23A2BA5700500C40 /* Info.plist */,
 			);
 			path = OneMediPlanTests;
+			sourceTree = "<group>";
+		};
+		1F2A5EC623A2BC8700500C40 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C695F23A774C800374749 /* InputViews */,
+				1F2A5EC923A2BCBC00500C40 /* MediRow.swift */,
+				1FA79AAF23A434BB00474125 /* NextDateView.swift */,
+				1FA79AAD23A433E900474125 /* DosageView.swift */,
+				1FA79AAB23A432F500474125 /* StockView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1F2A5EC723A2BC9500500C40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FB68A6223E9E172001AB650 /* Lists */,
+				1F2A5EC623A2BC8700500C40 /* Components */,
+				1FA79AA723A3720200474125 /* CreateMediView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F2A5EC823A2BCA000500C40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A5EA523A2BA5600500C40 /* OneMediPlan.xcdatamodeld */,
+				1FA79AB523A674F500474125 /* MyData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F4C695F23A774C800374749 /* InputViews */ = {
+			isa = PBXGroup;
+			children = (
+				1FA79AB923A7690400474125 /* NameInputView.swift */,
+				1FA79ABB23A76A2300474125 /* IntervalInputView.swift */,
+				1FA79ABD23A76BC800474125 /* DosageInputView.swift */,
+				1FA79AB323A580F400474125 /* StockInputView.swift */,
+				1FA79AB123A445A500474125 /* SelectDateInputView.swift */,
+			);
+			path = InputViews;
+			sourceTree = "<group>";
+		};
+		1FB68A5F23E9E13C001AB650 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1FB68A6023E9E15C001AB650 /* MediListViewModel.swift */,
+				1FB68A6323E9E8EE001AB650 /* CreateMediViewModel.swift */,
+				1FB68A6523E9E9C9001AB650 /* IntervalInputViewModel.swift */,
+				1FB68A6723EB3408001AB650 /* MediRowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1FB68A6223E9E172001AB650 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				1FA79AA523A2ECED00474125 /* MediListView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		1FB68A6923EB346C001AB650 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FB68A6A23EB3480001AB650 /* StringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +315,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA79AB223A445A500474125 /* SelectDateInputView.swift in Sources */,
+				1FA79AB023A434BB00474125 /* NextDateView.swift in Sources */,
+				1FA79ABA23A7690400474125 /* NameInputView.swift in Sources */,
+				1F2A5ECA23A2BCBC00500C40 /* MediRow.swift in Sources */,
+				1FB68A6123E9E15C001AB650 /* MediListViewModel.swift in Sources */,
+				1FA79ABC23A76A2300474125 /* IntervalInputView.swift in Sources */,
+				1FA79AB623A674F600474125 /* MyData.swift in Sources */,
+				1FB68A6823EB3408001AB650 /* MediRowViewModel.swift in Sources */,
+				1FA79AAE23A433E900474125 /* DosageView.swift in Sources */,
 				1F2A5EA723A2BA5600500C40 /* OneMediPlan.xcdatamodeld in Sources */,
+				1FA79AB423A580F400474125 /* StockInputView.swift in Sources */,
+				1FA79AAC23A432F500474125 /* StockView.swift in Sources */,
+				1FB68A6B23EB3480001AB650 /* StringExtensions.swift in Sources */,
 				1F2A5EA223A2BA5600500C40 /* AppDelegate.swift in Sources */,
-				1F2A5EA923A2BA5600500C40 /* ContentView.swift in Sources */,
+				1FB68A6623E9E9C9001AB650 /* IntervalInputViewModel.swift in Sources */,
+				1FA79AA823A3720200474125 /* CreateMediView.swift in Sources */,
 				1F2A5EA423A2BA5600500C40 /* SceneDelegate.swift in Sources */,
+				1FA79ABE23A76BC800474125 /* DosageInputView.swift in Sources */,
+				1FA79AA623A2ECED00474125 /* MediListView.swift in Sources */,
+				1FB68A6423E9E8EE001AB650 /* CreateMediViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"OneMediPlan/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GGU8ET2C4;
 				ENABLE_PREVIEWS = YES;
@@ -375,10 +496,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.OneMediPlan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -387,6 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"OneMediPlan/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GGU8ET2C4;
 				ENABLE_PREVIEWS = YES;
@@ -395,10 +518,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.b-velop.OneMediPlan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

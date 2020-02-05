@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DosageType" representedClassName=".DosageType" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <relationship name="dosageType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medi" inverseName="dosageType" inverseEntity="Medi"/>
+    </entity>
+    <entity name="IntervalType" representedClassName=".IntervalType" syncable="YES" codeGenerationType="class">
+        <attribute name="idx" attributeType="Integer 16" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="intervalType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medi" inverseName="intervalType" inverseEntity="Medi"/>
+    </entity>
+    <entity name="Medi" representedClassName=".Medi" syncable="YES" codeGenerationType="class">
+        <attribute name="dosage" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="interval" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="last" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="minimum" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="n/a"/>
+        <attribute name="next" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="stock" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="dosageType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DosageType" inverseName="dosageType" inverseEntity="DosageType"/>
+        <relationship name="intervalType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IntervalType" inverseName="intervalType" inverseEntity="IntervalType"/>
+    </entity>
+    <elements>
+        <element name="DosageType" positionX="123.0234375" positionY="11.66015625" width="128" height="73"/>
+        <element name="IntervalType" positionX="-9" positionY="-9" width="128" height="88"/>
+        <element name="Medi" positionX="-181.8359375" positionY="-105.30859375" width="128" height="178"/>
+    </elements>
+</model>
